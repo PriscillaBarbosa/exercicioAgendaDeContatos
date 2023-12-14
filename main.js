@@ -2,7 +2,6 @@ const form = document.getElementById("form-atividade");
 const nome = [];
 const telefone = [];
 
-
 let linhas = "";
 
 form.addEventListener("submit", function(e) {
