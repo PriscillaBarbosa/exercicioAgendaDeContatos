@@ -16,7 +16,7 @@ function adicionaLinha() {
     const inputNome = document.getElementById("nome");
     const inputTelefone = document.getElementById("telefone");
 
-    if(nome.includes(inputNome.value) || telefone.includes(inputTelefone.value) ){
+    if(nome.includes(inputNome.value) || telefone.includes(inputTelefone.value)){
         alert(`O nome: ${inputNome.value} ou o telefone: ${inputTelefone.value} já foi cadastrado`);
     }else {
 
